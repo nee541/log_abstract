@@ -1,10 +1,18 @@
-Sample Module Repository
+Log Abstract
 ========================
 
-This simple project is an example repo for Python projects.
+Log Abstract is a Python library for parsing HDFS log files. It is designed to be flexible and easy to use.
 
-`Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
+ `Learn more about HDFS <https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html>`_.
 
 ---------------
 
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.
+Installation
+------------
+It is recommand to use venv to run this project.
+The following steps will help you to install this project.
+::
+
+    $ make init && make install
+
+
